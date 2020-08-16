@@ -1,0 +1,23 @@
+[Oo]bj
+[Bb]in
+*.user
+*.suo
+*.[Cc]ache
+*.bak
+*.ncb
+*.log 
+*.db
+*.class
+
+target/
+bin/
+.classpath
+.project
+.settings
+
+*.DS_Store
+[Tt]humbs.db
+
+# IntelliJ project files
+.idea
+*.iml
