@@ -68,11 +68,11 @@ public class AirportTest {
     }
 
     @Test
-    public void ExperimentalPlanesHasAtLeastOneClassificationLevelHigherThanUnclassified(){
+    public void ExperimentalPlanesHasAtLeastOneClassificationLevelHigherThanUnclassified() {
         boolean hasHigherThanUnclassifiedPlane = false;
-        for(ExperimentalPlane experimentalPlane : new Airport(planes)
+        for (ExperimentalPlane experimentalPlane : new Airport(planes)
                                             .getExperimentalPlanes()) {
-            if(experimentalPlane.getClassificationLevel() != ClassificationLevel.UNCLASSIFIED){
+            if (experimentalPlane.getClassificationLevel() != ClassificationLevel.UNCLASSIFIED) {
                 hasHigherThanUnclassifiedPlane = true;
                 break;
             }
