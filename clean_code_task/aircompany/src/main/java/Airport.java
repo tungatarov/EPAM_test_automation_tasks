@@ -83,30 +83,18 @@ public class Airport {
         return bomberMilitaryPlanes;
     }
 
-    public Airport sortByMaxDistance() {
-        Collections.sort(planes, new Comparator<Plane>() {
-            public int compare(Plane o1, Plane o2) {
-                return o1.getMaxFlightDistance() - o2.getMaxFlightDistance();
-            }
-        });
+    public Airport sortByMaxFlightDistance() {
+        Collections.sort(planes, Comparator.comparingInt(o -> o.getMaxFlightDistance()));
         return this;
     }
 
     public Airport sortByMaxSpeed() {
-        Collections.sort(planes, new Comparator<Plane>() {
-            public int compare(Plane o1, Plane o2) {
-                return o1.getMaxSpeed() - o2.getMaxSpeed();
-            }
-        });
+        Collections.sort(planes, Comparator.comparingInt(o -> o.getMaxSpeed()));
         return this;
     }
 
     public Airport sortByMaxLoadCapacity() {
-        Collections.sort(planes, new Comparator<Plane>() {
-            public int compare(Plane o1, Plane o2) {
-                return o1.getMaxLoadCapacity() - o2.getMaxLoadCapacity();
-            }
-        });
+        Collections.sort(planes, Comparator.comparingInt(o -> o.getMaxLoadCapacity()));
         return this;
     }
 
