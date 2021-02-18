@@ -1,23 +1,45 @@
-[Oo]bj
-[Bb]in
-*.user
-*.suo
-*.[Cc]ache
-*.bak
-*.ncb
-*.log 
-*.db
+# Maven files
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+pom.xml.bak
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Compiled class file
 *.class
 
-target/
-bin/
-.classpath
-.project
-.settings
+# Log file
+*.log
 
-*.DS_Store
-[Tt]humbs.db
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
 
-# IntelliJ project files
+# Git
+git.properties
+
+#IDEA Project Files
+*iml
+*iws
+out/
 .idea
-*.iml
+*ipr
+ishopdb
+
+
+
+
+
+
+

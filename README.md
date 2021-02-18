@@ -1,1 +1,1 @@
-# EPAM_test_automation_tasks
+## epam-automation
