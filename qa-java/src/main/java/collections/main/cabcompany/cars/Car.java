@@ -1,4 +1,4 @@
-package cars;
+package collections.main.cabcompany.cars;
 
 import java.util.Objects;
 import java.util.concurrent.atomic.AtomicInteger;

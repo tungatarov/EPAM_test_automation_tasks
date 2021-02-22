@@ -1,1 +1,1 @@
-## epam-automation
+## qa-automation

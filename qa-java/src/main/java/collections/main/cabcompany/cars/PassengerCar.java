@@ -1,7 +1,7 @@
-package cars;
+package collections.main.cabcompany.cars;
 
-import models.CarBodyType;
-import models.ComfortLevel;
+import collections.main.cabcompany.models.CarBodyType;
+import collections.main.cabcompany.models.ComfortLevel;
 
 import java.util.Objects;
 

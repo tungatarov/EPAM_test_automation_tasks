@@ -1,3 +1,5 @@
+package collections.optional;
+
 import java.util.Scanner;
 import java.util.Stack;
 

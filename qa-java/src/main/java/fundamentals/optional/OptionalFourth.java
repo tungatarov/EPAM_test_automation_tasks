@@ -1,4 +1,4 @@
-package com.epam.learn.fundamentals.optional;
+package fundamentals.optional;
 
 import java.util.Scanner;
 

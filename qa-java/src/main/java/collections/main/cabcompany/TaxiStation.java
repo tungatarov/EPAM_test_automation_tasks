@@ -1,12 +1,17 @@
-import cars.Car;
-import cars.PassengerCar;
-import models.CarBodyType;
-import models.ComfortLevel;
+package collections.main.cabcompany;
+
+import collections.main.cabcompany.cars.Car;
+import collections.main.cabcompany.cars.PassengerCar;
+import collections.main.cabcompany.models.CarBodyType;
+import collections.main.cabcompany.models.ComfortLevel;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Scanner;
 
 public class TaxiStation {
 

@@ -1,6 +1,6 @@
-package com.epam.learn.classes.main;
+package classes.main;
 
-public class Person {
+public abstract class Person {
 
     private static int idGenerator;
     private final int id;

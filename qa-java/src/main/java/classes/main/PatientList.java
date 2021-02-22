@@ -1,8 +1,8 @@
-package com.epam.learn.classes.main;
+package classes.main;
 
 public class PatientList {
 
-    private Patient[] patients;
+    private final Patient[] patients;
 
     public PatientList(Patient[] patients) {
         this.patients = patients;

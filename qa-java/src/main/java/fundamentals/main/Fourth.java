@@ -1,4 +1,4 @@
-package com.epam.learn.fundamentals.main;
+package fundamentals.main;
 
 class Fourth {
 
